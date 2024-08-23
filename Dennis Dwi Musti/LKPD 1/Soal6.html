@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Search Input</title>
+	<style>
+		body {
+			background-color: silver;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+			margin: 0;
+            flex-direction: column;
+		}
+		
+		#search-form {
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 10px;
+		}
+		
+		#search-input {
+			font-size: 18px;
+		}
+		
+		#result {
+			font-size: 24px;
+			font-weight: bold;
+			color: black;
+			text-align: center;
+		}
+        .data {
+            font-size: 24px;
+            color: black;
+        }
+	</style>
+</head>
+<body>
+	<form id="search-form">
+		<input type="text" id="search-input" placeholder="Cari...">
+		<button type="submit">Kirim</button>
+        <br>
+	</form>
+	<div id="result">
+        <p class="data">Tidak mencari data...</p>
+    </div>
+
+	<script>
+		document.getElementById("search-form").addEventListener("submit", function(event) {
+		  event.preventDefault();
+		  let searchInput = document.getElementById("search-input");
+		  let resultElement = document.getElementById("result");
+		  let searchText = searchInput.value.trim();
+		  resultElement.innerHTML = `Mencari data : ${searchText}`;
+		  document.querySelector('.data').innerText = 'Mencari data...';
+		});
+	  </script>
+</body>
+</html>
