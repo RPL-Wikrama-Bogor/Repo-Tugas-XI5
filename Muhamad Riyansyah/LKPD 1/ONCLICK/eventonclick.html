@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label for="">Jenis Kelamin</label>
+        <!-- <div style="display: flex;">
+            <input type="radio" name="gender" id="p" value="p" onclick="changeLabel(this)">
+            <label for="p">Perempuan</label>
+        </div>
+        <div style="display: flex;">
+            <input type="radio" name="gender" id="l" value="l" onclick="changeLabel(this)">
+            <label for="l">Laki-Laki</label>
+        </div> -->
+        <select name="gender" onchange="changeLabel(this)">
+            <option selected disabled hidden>Pilih Opsi</option>
+            <option value="p">Kurang dari 5 tahun</option>
+            <option value="l">Lebih dari Lima</option>
+        </select>
+        <div id="wrapper">
+            <!-- <label for="name" id="label-name">Nama (Mrs.)</label>
+            <input type="text" name="name" id="name"> -->
+        </div>
+    </form>
+
+    <script>
+        function changeLabel(e) {
+            if (e.value == "p") {
+                // document.getElementById('label-name').innerText = "Nama (Mrs.)";
+                // document.getElementById('wrapper').style.display = "block";
+                document.getElementById('wrapper').innerHTML = `
+                    <select>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                `;
+            } else {
+                // document.getElementById('label-name').innerText = "Nama (Mr.)";
+                // document.getElementById('wrapper').style.display = "none";
+                document.getElementById('wrapper').innerHTML = `
+                    <input type="number" placeholder="Masukkan usia">
+                `;
+            }
+        }
+    </script>
+</body>
+</html>

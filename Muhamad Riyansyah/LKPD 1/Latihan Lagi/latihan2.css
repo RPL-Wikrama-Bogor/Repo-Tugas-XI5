@@ -1,0 +1,14 @@
+.card-wrap {
+  background-color: grey;
+  justify-content: center;
+  display: flex;
+}
+
+.card-list {
+  justify-content: space-between;
+}
+
+.card {
+  justify-content: center;
+  text-align: center;
+}

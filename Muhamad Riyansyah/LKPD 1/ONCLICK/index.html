@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label for="">Status Ayah</label>
+        <div style="display: flex;">
+            <input type="radio" name="jenis" id="hidup" value="hidup" onclick="changeLabel(this)">
+            <label for="hidup">Masih Hidup</label>
+        </div>
+        <div style="display: flex;">
+            <input type="radio" name="jenis" id="mati" value="mati" onclick="changeLabel(this)">
+            <label for="mati">Meninggal</label>
+        </div>
+        <div style="display: flex;">
+            <input type="radio" name="jenis" id="leungit" value="leungit" onclick="changeLabel(this)">
+            <label for="leungit">Tidak diketahui</label>
+        </div>
+        <div id="wrapper">
+        </div>
+    </form>
+
+    <script>
+      function changeLabel(e) { 
+          if (e.value == "hidup") {
+              document.getElementById('wrapper').style.display = "block";
+              document.getElementById('wrapper').innerHTML = `
+                  <br> <label for="pilih">Pendidikan Ayah</label> <br>
+                  <input type="text" placeholder="Isi Pendidikan Ayah"> <br><br>
+                  <label for="pilih">Pekerjaan Ayah</label> <br>
+                  <input type="text" placeholder="Isi Pekerjaan Ayah"> <br><br>
+                  <label for="pilih">Deskripsi Pekerjaan Ayah</label> <br>
+                  <input type="text" placeholder="Deskripsi Pekerjaan Ayah"> <br><br>
+                  <label for="pilih">Penghasilan Ayah</label> <br>
+                  <input type="text" placeholder="Penghasilan Ayah" id="dengan-rupiah">
+              `;
+              var dengan_rupiah = document.getElementById('dengan-rupiah');
+                dengan_rupiah.addEventListener('keyup', function(e)
+              {
+                dengan_rupiah.value = formatRupiah(this.value, 'Rp. ');
+              });
+          } else if (e.value == "mati") {
+              document.getElementById('wrapper').style.display = "block";
+              document.getElementById('wrapper').innerHTML = `
+                  <br> <label for="pilih">Pendidikan Ayah Semasa Hidup</label> <br>
+                  <input type="text" placeholder="Isi Pendidikan Ayah"> <br><br>
+                  <label for="pilih">Pekerjaan Ayah Semasa Hidup</label> <br>
+                  <input type="text" placeholder ="Isi Pekerjaan Ayah"> <br><br>
+                  <label for="pilih">Deskripsi Pekerjaan Ayah</label> <br>
+                  <input type="text" placeholder="Deskripsi Pekerjaan Ayah"> <br><br>
+                  <label for="pilih">Penghasilan Ayah</label> <br>
+                  <input type="text" placeholder="Penghasilan Ayah" id="dengan-rupiah">
+              `;
+              var dengan_rupiah = document.getElementById('dengan-rupiah');
+                dengan_rupiah.addEventListener('keyup', function(e)
+              {
+                dengan_rupiah.value = formatRupiah(this.value, 'Rp. ');
+              });
+          } else {
+              document.getElementById('wrapper').style.display = "none";
+          }
+        }
+      /* Fungsi */
+      function formatRupiah(angka, prefix)
+      {
+          var number_string = angka.replace(/[^,\d]/g, '').toString(),
+              split    = number_string.split(','),
+              sisa     = split[0].length % 3,
+              rupiah     = split[0].substr(0, sisa),
+              ribuan     = split[0].substr(sisa).match(/\d{3}/gi);
+              
+          if (ribuan) {
+              separator = sisa ? '.' : '';
+              rupiah += separator + ribuan.join('.');
+          }
+          
+          rupiah = split[1] != undefined ? rupiah + ',' + split[1] : rupiah;
+          return prefix == undefined ? rupiah : (rupiah ? 'Rp. ' + rupiah : '');
+      }
+    </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Countdown Alert</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div style="text-align: center;">
+		<button class="button" id="myButton">Munculkan Alert</button>
+	</div>
+	<div class="countdown" id="countdown">
+        <p><span style="font-weight:bold;">DANGER!!!</span> Alert akan tertutup dalam -   
+		<span id="count">5</span>
+        </p>
+	</div>
+
+	<script>
+		document.getElementById("myButton").addEventListener("click", function() {
+			let count = 5;
+			let countdownElement = document.getElementById("countdown");
+			countdownElement.classList.add("show");
+			let interval = setInterval(function() {
+				document.getElementById("count").innerText = count;
+				if (count <= 0) {
+					clearInterval(interval);
+					countdownElement.classList.remove("show");
+				}
+				count--;
+			}, 1000); // 1000ms = 1 second
+		});
+	</script>
+</body>
+</html>
