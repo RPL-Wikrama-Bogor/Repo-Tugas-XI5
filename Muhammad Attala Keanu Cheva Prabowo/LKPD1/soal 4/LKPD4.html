@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LKPD 4</title>
+  <style>
+    #image {
+      width: 300px;
+      height: 200px;
+      border: 1px solid #ccc;
+      display: block;
+      margin: 20px auto;
+    }
+  </style>
+</head>
+<body>
+  <select id="image-select">
+    <option value="Shura">Gambar 1</option>
+    <option value="ichigo">Gambar 2</option>
+    <option value="BigBoss">Gambar 3</option>
+  </select>
+  <select id="opacity-select">
+    <option value="1">Opacity 1</option>
+    <option value="0.5">Opacity 0.5</option>
+    <option value="0.2">Opacity 0.2</option>
+  </select>
+  <img id="image" src="Shura.jpg" alt="Gambar">
+
+  <script>
+    const imageSelect = document.getElementById('image-select');
+    const opacitySelect = document.getElementById('opacity-select');
+    const imageElement = document.getElementById('image');
+
+    imageSelect.addEventListener('change', () => {
+      const selectedImage = imageSelect.value;
+      imageElement.src = `${selectedImage}.jpg`;
+      updateOpacity();
+    });
+
+    opacitySelect.addEventListener('change', updateOpacity);
+
+    function updateOpacity() {
+      const selectedOpacity = opacitySelect.value;
+      imageElement.style.opacity = selectedOpacity;
+    }
+  </script>
+</body>
+</html>
