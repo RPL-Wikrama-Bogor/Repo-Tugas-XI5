@@ -1,1 +1,1 @@
-repo pengumpulan tugas kels XI = https://github.com/yogikautsa112/tugasKlsXI
+repo pengumpulan tugas kelas XI = https://github.com/yogikautsa112/tugasKlsXI
