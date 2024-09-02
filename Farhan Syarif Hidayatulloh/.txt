@@ -1,3 +1,3 @@
 TUGAS LKPD 1 MATERI HTML CSS JS FARHAN SYARIF H (12309639)
 
-<link> https://github.com/Farhan-Syarif-H/LKPDXI-5PERTAMA.git
+<link> https://github.com/Farhan-Syarif-H/LKPDXI-5PERTAMA.git   
