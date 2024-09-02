@@ -10,4 +10,5 @@ https://github.com/mipaldev/LKPD-PHP-22-08-24.git
 
 
 ==> UPDATE : UI LKPD PHP Jum, 23-08-24
-http://mipaldev.byethost7.com/school-project/ui-lkpd-php/
+link1 = http://mipaldev.byethost7.com/school-project/ui-lkpd-php/
+link2 = http://mipaldev.kesug.com/ui-lkpd-php/
