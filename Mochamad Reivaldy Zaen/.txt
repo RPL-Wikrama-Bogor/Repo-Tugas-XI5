@@ -1,1 +1,2 @@
 LKPD1 HTML,CSS Dan JS : link: https://github.com/Reivaldy-Zaen/LKPD1-11.git
+LKPD2 PHP : https://github.com/Reivaldy-Zaen/LKPD2-11.git
