@@ -1,2 +1,3 @@
 LKPD 1 PHP <https://azrielriz.github.io/php-lkpd-1/>
 LKPD PHP <https://github.com/azrielriz/LKPD_PHP.git>
+LKPD HTML <https://github.com/azrielriz/LKPD-HTML-CSS-JS.git>
