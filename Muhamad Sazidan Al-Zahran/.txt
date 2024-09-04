@@ -1,0 +1,2 @@
+LKPD 1 = https://github.com/Muhamad-SazidanA/KFemaLKPD1.git
+LKPD 2 = https://github.com/Muhamad-SazidanA/KFemaLKPD2.git
