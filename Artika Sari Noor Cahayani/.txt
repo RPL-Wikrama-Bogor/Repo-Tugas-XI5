@@ -1,0 +1,2 @@
+LKPD 1 : https://github.com/artika-sari/LKPD1-XI-5
+LKPD 2 : https://github.com/artika-sari/LKPDPHP

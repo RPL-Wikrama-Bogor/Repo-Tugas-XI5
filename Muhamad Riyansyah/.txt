@@ -1,0 +1,2 @@
+LKPD 1 HTML, CSS, JS: https://github.com/riyannnsyh/LKPD1
+LKPD 2 PHP: https://github.com/riyannnsyh/LKPD2
