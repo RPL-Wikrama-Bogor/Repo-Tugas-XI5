@@ -9,6 +9,9 @@ https://github.com/mipaldev/LKPD-HTML-CSS-JS-19-08-2024.git
 https://github.com/mipaldev/LKPD-PHP-22-08-24.git
 
 
-==> UPDATE : UI LKPD PHP Jum, 23-08-24
+==> UI LKPD PHP Jum, 23-08-24
 link1 = http://mipaldev.byethost7.com/school-project/ui-lkpd-php/
 link2 = http://mipaldev.kesug.com/ui-lkpd-php/
+
+==> Link Trello
+https://trello.com/invite/b/66ea277eb0d0a8cdbd22cfe3/ATTIae1979df5f1897796e92c17e630e99ff4E04128D/membuat-to-do-list-dengan-react
