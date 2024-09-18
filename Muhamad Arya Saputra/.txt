@@ -1,3 +1,4 @@
 link lkpd 1 : https://github.com/Arya0907/Muhamad-Arya-LKPD-1-PPLG-XI5
 speedtest : https://github.com/Arya0907/Muhamad-Arya-Saputra-LKPD-JS-1-PPLG-X-5
 link lkpd 2 : https://github.com/Arya0907/Muhamad-Arya-Saputra-LKPD-2-PPLGXI5
+link trelo : https://trello.com/b/XEkDuGyB/my-project
