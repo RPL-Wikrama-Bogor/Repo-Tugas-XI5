@@ -1,1 +1,3 @@
-LKPD 1: 
+LKPD 1: https://github.com/nisasmkwikrama/LKPD1
+LKPD 2: https://github.com/nisasmkwikrama/LKPD2
+trello: https://trello.com/invite/b/66daa23ca032104a0d54ad05/ATTI8cd73ff10cf8e24a14190878521ec0bcA0B02554/icaaaaaaa
