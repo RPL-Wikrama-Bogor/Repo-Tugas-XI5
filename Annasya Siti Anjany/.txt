@@ -1,2 +1,3 @@
 LKPD 1 : https://github.com/annasyasa/lkpd1-11-.git
 LKPD 2 : https://github.com/annasyasa/lkpd2-11-
+TRELLO : https://trello.com/invite/b/66daa1e3304a431ed32b68f7/ATTI4442fc68cbff0f1090bdaf5d243df6491466FC2D/nanazz
