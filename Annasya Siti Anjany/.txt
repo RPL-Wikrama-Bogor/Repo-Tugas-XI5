@@ -1,0 +1,2 @@
+LKPD 1 : https://github.com/annasyasa/lkpd1-11-.git
+LKPD 2 : https://github.com/annasyasa/lkpd2-11-
