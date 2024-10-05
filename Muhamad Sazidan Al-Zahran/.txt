@@ -1,2 +1,4 @@
 LKPD 1 = https://github.com/Muhamad-SazidanA/KFemaLKPD1.git
 LKPD 2 = https://github.com/Muhamad-SazidanA/KFemaLKPD2.git
+
+Trello = https://trello.com/invite/b/66daa15e2916f5c51949677b/ATTIc51dc364579139ed959040b1dcb0b0581E394D20/latihan-skul
