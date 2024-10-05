@@ -1,0 +1,4 @@
+LKPD 1 = https://github.com/AmanZulkifli/LKPD-1.git
+LKPD 2 = https://github.com/AmanZulkifli/LKPD-2.git
+
+Trello = https://trello.com/invite/b/66daa128cf0ef3465f74e190/ATTI7279d832f2c4f11bcf9f22aa14915dfb90DC29C5/projek-urang
