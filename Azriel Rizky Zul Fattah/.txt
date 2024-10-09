@@ -1,0 +1,8 @@
+LKPD 1 PHP <https://azrielriz.github.io/php-lkpd-1/>
+
+LKPD 2 PHP <https://github.com/azrielriz/LKPD_PHP.git>
+
+LKPD HTML <https://github.com/azrielriz/LKPD-HTML-CSS-JS.git>
+
+LINK TRELLO
+https://trello.com/invite/b/670222caa60b13bcf7cb1a6a/ATTI770b05b1e674a6b441ecd3e56cf7e3549E7BA52A/webshop-azriel
