@@ -1,0 +1,4 @@
+repo pengumpulan tugas kelas XI = https://github.com/yogikautsa112/tugasKlsXI
+tambah LKPD php
+
+link trello = https://trello.com/invite/b/66da9fe81274788ed6a846c8/ATTIb1c2b3f3f90817bf8f8313f3a243fee1D68F7E73/inventory-management-app

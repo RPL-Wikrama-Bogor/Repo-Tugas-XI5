@@ -1,0 +1,5 @@
+LKPD 1 : https://github.com/YosafatWa/LKPD-1_Yosafat-Wijaya-Arifin
+Speed Test : https://github.com/YosafatWa/Speed-Test-Yos
+LKPD 2 : https://github.com/YosafatWa/LKPD-2-PHP
+
+Link Trello : https://trello.com/invite/b/66daa09d2e6edfc6a7b2b45a/ATTIecc7feecf2286b87144973cb87319d71813AA332/yos
