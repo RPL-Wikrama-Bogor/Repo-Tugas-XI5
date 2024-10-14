@@ -1,0 +1,3 @@
+LKPD 1 : https://github.com/artika-sari/LKPD1-XI-5
+LKPD 2 : https://github.com/artika-sari/LKPDPHP
+Link Trello : https://trello.com/invite/b/66daa1e6a8efe17ff4fe263b/ATTI6e8e56e96f20c7a96121e1f3029928106FAC1077/crochetapp

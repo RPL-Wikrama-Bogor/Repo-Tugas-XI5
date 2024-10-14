@@ -1,0 +1,2 @@
+LKPD 1 html,js = https://github.com/Sayyidberryl/LKPD1-11.git
+Trello = https://trello.com/invite/b/66daa1ee9c9359fe0617a29d/ATTIa9102b8af92f304695c67456996f1c0fFC72B1CC/pengoding

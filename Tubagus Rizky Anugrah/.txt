@@ -1,0 +1,3 @@
+12310091 - LKPD 1 HTML, CSS, JS "https://github.com/tubagusanugrah/LKPD-1.git"
+12310091 - LKPD 2 PHP "https://github.com/tubagusanugrah/LKPD-2.git"
+12310091 - Link Trello "https://trello.com/invite/b/66daa13e844e3eb5ffaf7924/ATTI32c0e108635ec6083d62e7e82c653e4007906922/rentalmotorapp"

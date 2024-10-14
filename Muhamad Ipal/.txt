@@ -1,0 +1,18 @@
+Muhammad Ipal | 12309789 | PPLG XI-5 | Cisarua 2
+
+
+==> LKPD1 HTML, CSS & JS. Sen, 19-08-2024
+https://github.com/mipaldev/LKPD-HTML-CSS-JS-19-08-2024.git
+
+
+==> LKPD2 PHP Kam, 22-08-2024
+https://github.com/mipaldev/LKPD-PHP-22-08-24.git
+
+
+==> UI LKPD PHP Jum, 23-08-24
+link1 = http://mipaldev.byethost7.com/school-project/ui-lkpd-php/
+link2 = http://mipaldev.kesug.com/ui-lkpd-php/
+
+
+==> Link Trello (Update 05-10-24)
+https://trello.com/invite/b/6701607137b67b010036c44d/ATTI0c759fb1dd1c1b621327bbc42bf49b4782ADC53F/trello-muhammad-ipal
