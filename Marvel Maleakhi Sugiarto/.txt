@@ -1,1 +1,3 @@
 trello = https://trello.com/invite/b/66daa1001edfc86c99d118f9/ATTI8c2de3115f326966dec6453be507dda4746484D0/my-trello-board
+LKPD 1 =https://github.com/vellxyn/LKPD-ke-1.git
+LKPD 2 = https://github.com/vellxyn/LKPD-ke-2-PHP.git
