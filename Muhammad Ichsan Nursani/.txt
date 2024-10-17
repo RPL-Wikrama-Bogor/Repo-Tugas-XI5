@@ -1,3 +1,4 @@
 link = https://github.com/Ichsan-sani/lkpd-2php
 link = https://github.com/Ichsan-sani/lkpd-1js
 link trello = https://trello.com/invite/b/66daa237fae24b8a758798c1/ATTI77b151e2b4a27076cf8a49c914cad0f1B67D4ED6/new1
+link tugas laravel cave = https://github.com/Ichsan-sani/tugas-cafe-laravel
