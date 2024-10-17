@@ -1,0 +1,4 @@
+12309605 Dimas Ady Bhaskara LKPD 1 = https://github.com/bhaskaradim/LKPD-1
+12309605 Dimas Ady Bhaskara LKPD 2 = https://github.com/bhaskaradim/LKPD-2
+
+Trello : https://trello.com/invite/b/66daa1d9fdb894452acf542c/ATTI51fa392feb1d48588c3e33221ca946b0C3F1F747/apotek-app
