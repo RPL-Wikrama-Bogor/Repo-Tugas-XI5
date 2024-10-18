@@ -1,4 +1,5 @@
 12309656-LKPD 1 Link "https://github.com/fernandaziyad10/LKPD1.git"
 12309656-LKPD2 PHP link "https://github.com/fernandaziyad10/LKPDPHP.git"
-12309656-Link TRELLO "https://trello.com/b/yuvOv1Rl/sewamotor"
+12309656-Link TRELLO "https://trello.com/invite/b/66daa20e65d003eed89f41a6/ATTI0c8cd353588552960367fcb173c7e77fBFACF039/sewamotor"
+123096656-Link Github Project CRUD "https://github.com/fernandaziyad10/FruitShopApp
 
